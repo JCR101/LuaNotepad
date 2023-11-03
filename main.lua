@@ -46,7 +46,7 @@ textArea = iup.text{
   multiline = "YES",
   expand = "YES",
   value = buffer,
-  font = "Courier, 12",
+  font = "Courier, 14",
   action = function(self, c, after)
     buffer = self.value
     return iup.DEFAULT
